@@ -4,13 +4,13 @@ import 'package:favorite/Model/FavorViewModel.dart';
 import 'package:favorite/UI/favor.dart';
 import 'package:flutter/material.dart';
 import 'package:favorite/UI/HomePage.dart';
-import 'UI/MyPage.dart';
 import 'package:favorite/Core/Services/HomeRoutes.dart';
 import 'package:favorite/Core/Services/meal_request.dart';
 import 'package:provider/provider.dart';
 import 'dart:convert';
+import 'package:favorite/Core/Extension/size_fit.dart';
 void main () {
-
+  HYSizeFit.initialize();
   runApp(
       MultiProvider(
         providers: [

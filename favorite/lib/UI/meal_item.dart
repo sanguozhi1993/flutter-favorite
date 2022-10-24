@@ -40,7 +40,7 @@ class HYMealItem extends StatelessWidget {
             topLeft: Radius.circular(cardRadius),
             topRight: Radius.circular(cardRadius)
           ),
-          child: Image.network(meal.imageUrl!, width: 300.px, height: 250.px, fit: BoxFit.cover,),
+          child: Image.network(meal.imageUrl!, width: double.infinity, height: 250.px, fit: BoxFit.cover,),
         ),
         Positioned(
           right: 10.px,
